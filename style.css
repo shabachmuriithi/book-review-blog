@@ -495,6 +495,7 @@ form{
             font-size: xx-large;
             font-family: nunito;
             color: #A61F2B;
+            
     
         }
         p{
@@ -503,12 +504,12 @@ form{
         }
     }
     .blog-image{
-        width: 40vw;
+        width: 100%;
         h2{
             font-size: xx-large;
             font-family: nunito;
             color: #A61F2B;
-            
+            text-align: center;
         }
         img{
             width: 80vw;
@@ -531,7 +532,7 @@ form{
         background-color: #e3e4b8;
         text-align: left;
         font-family: ku;
-        font-size: 2em;
+        font-size: 1.5em;
         p{
             width: 100%;
             font-family: ku;
@@ -651,6 +652,7 @@ form{
         text-align: center;
         padding: 2em;
         margin-left: 2em;
+        margin-top: 4em;
       
      }
      #submit{
@@ -662,7 +664,7 @@ form{
         background-color: #234457;
         border: none;
         border-radius: 1em;
-        margin-top: 9em;
+        margin-top: 14em;
         text-align: center;
         cursor: pointer;
         color: white;
@@ -674,14 +676,17 @@ form{
         color: white
      }
      
-    
+    #socials p{
+        margin-left: 14em;
+    }
     
      
     footer {
         padding-top: 3vh;
-        height: 35vh;
+        height: 48vh;
         width: 100vw;
         background-color: #17242b;
+        padding-bottom: 2em;
     
         a {
             color: white;
