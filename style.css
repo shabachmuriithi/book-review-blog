@@ -678,6 +678,7 @@ form{
      
     #socials p{
         margin-left: 14em;
+        font-size: .7em;
     }
     
      
@@ -737,7 +738,7 @@ form{
     }
    
  }
- @media screen and(min-width: 751px) and (max-width: 999px)  {
+ @media (min-width: 751px) and (max-width: 1200px)  {
     html {
         scroll-behavior: smooth;
     }
@@ -805,7 +806,7 @@ form{
         background-color: white;
     
         img {
-            height: 70px;
+            height: 50px;
             margin: 0;
         }
     
@@ -813,7 +814,8 @@ form{
             margin-left: 0;
             text-decoration: none;
             color: rgb(175, 42, 42);
-            font-size: 1em;
+            font-size: 1.5em;
+            
     
         }
     
@@ -849,8 +851,8 @@ form{
     .profile{
         font-family: nunito;
         align-items: center;
-        display: block;
-        margin: 0;
+        display: flex;
+        margin-top: 8em;
         img{
             border-radius: 50vw;
             width: 50px;
@@ -871,7 +873,7 @@ form{
             font-size: x-large;
             font-family: nunito;
             color: #A61F2B;
-    
+            text-align: center;
         }
         p{
             font-family: ku;
@@ -880,14 +882,16 @@ form{
         }
     }
     .blog-image{
-        width: 40vw;
+        width: 100%;
         h2{
             font-size: xx-large;
             font-family: nunito;
             color: #A61F2B;
+            text-align: center;
         }
         img{
-            width: 40vw;
+            width: 40em;
+            margin-left: 18em;
         }
     }
     .blog-info{
@@ -897,7 +901,7 @@ form{
             color: #234457;
         }
         p{
-            width: 40vw;
+            width: 100%;
         }
     }
     .excerpt{
@@ -945,7 +949,7 @@ form{
      .socials{
         display: flex;
         gap: 3em;
-       margin-left: 25em;
+       
      }
      .fa-brands{
         text-align: center;
